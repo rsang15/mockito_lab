@@ -1,6 +1,10 @@
 package mocking;
 
 public interface IAccount {
-	void setLoggedIn(boolean value);
-	boolean passwordMatches(String candidate);
+	boolean passwordMatches(String candiate);
+    void setLoggedIn(boolean value);
+    void setRevoked(boolean value);
+    boolean isLoggedIn();
+    boolean isRevoked();
+    String getId();
 }
