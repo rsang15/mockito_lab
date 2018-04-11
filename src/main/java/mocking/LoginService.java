@@ -16,4 +16,32 @@ public class LoginService extends LoginServiceContext {
   
        getState().login(this, account, password);
     }
+
+	public void setAccountTemporaryPassword(String string, String string2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void changePassword(String string, String string2, String string3) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void checkPasswordIsNew(String string, String string2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void changePasswordAfterExpiration(String string, String string2, String string3) {
+		// TODO Auto-generated method stub
+		
+	}
+    
+//    public void changePoassword(String accountId, String newpassword){
+//    	IAccount account = accountRepository.find(accountId);
+//    	if (account == null)
+//            throw new AccountNotFoundException();
+//    	
+//    	
+//    }
 }
