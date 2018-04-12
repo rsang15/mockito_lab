@@ -8,10 +8,14 @@ public interface IAccount {
     void setPasswordReset(boolean value);
 	void setPasswordIsChanged(boolean value);
 	void setPasswordIsExpired(boolean b);
+	void setLoggedOut(boolean b);
 	
     boolean isLoggedIn();
+    boolean isLoggedOut();
     boolean isRevoked();
     boolean passwordIsExpired();
     Boolean passwordIsChanged();
     String getId();
+
+	
 }
